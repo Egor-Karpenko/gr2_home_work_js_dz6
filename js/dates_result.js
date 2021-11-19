@@ -7,6 +7,7 @@ function get_count_days(date1, date2) {
         let start = date1.getTime();
         let ms_finish = date2.getTime();
 
+
         if (ms_start > ms_finish) {
             let temp = ms_start;
             ms_start = ms_finish;
